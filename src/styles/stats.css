@@ -1,0 +1,20 @@
+.widgetContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 5px;
+  /* align-items: center; */
+}
+.widget {
+  margin: 10px;
+}
+.stats {
+  height: 150px;
+  width: 200px;
+}
+@media screen and (max-width: 480px) {
+  .stats {
+    height: 150px;
+    width: 370px;
+  }
+}
